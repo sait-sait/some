@@ -14,7 +14,6 @@ spec:
     spec:
       containers:
       - name: license-plate-recognition
-        image: <your-acr-name>.azurecr.io/license-plate-recognition:v1
+        image: RegALPR.azurecr.io/license-plate-recognition:v1
         ports:
         - containerPort: 5000
-
